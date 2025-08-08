@@ -1,0 +1,14 @@
+{
+  "name": "insta-group-changer-node",
+  "version": "1.0.0",
+  "description": "Instagram group name auto-changer for Render using Playwright (Node.js)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0",
+    "dotenv": "^16.0.0"
+  }
+}
